@@ -8,8 +8,22 @@ import { Carousel } from '../components/Carousel.jsx';
 import reviews from '../helpers/reviews.json';
 import { ReviewCard } from '../components/ReviewCard';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import toast from 'react-hot-toast';
 
 export const About = () => {
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); //Stops the browser from reloading the page or submitting the form normally sice this is just a demo
+    toast('Oops! The pizza courier couldnt deliver this one. This form is just a demo!', {
+      icon: '🍕',
+      style: {
+        color: '#000',
+        background: 'rgba(236, 233, 185)',
+      },
+    });
+    e.target.reset(); //Resets the form fields after the toast is displayed
+  }
+  
   return (
     <>
       <div className='aboutContainer'>
@@ -30,9 +44,10 @@ export const About = () => {
         </section>
         <section className='newsletter'>
           <span>SUBSCRIBE TO OUR NEWSLETTER</span>
-            <form>
+            <form onSubmit={handleSubmit}>
               <input type="email" placeholder='Enter your email...'required/>
-              <Link to="*">SUBSCRIBE</Link>
+              {/* <Link to="*">SUBSCRIBE</Link> */}
+              <button type="submit">SUBSCRIBE</button>
             </form>
         </section>
         <section className='pizzaOfTheMonthSection'>
