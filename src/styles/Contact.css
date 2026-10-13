@@ -1,0 +1,102 @@
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-bottom: 7rem;
+}
+
+.pictureSide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.formSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  color: white;
+  gap: 2rem;
+}
+
+.formSide h1 {
+  font-size: 3rem;
+}
+
+.formSide p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.formSide form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.formSide input,
+.formSide textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.85rem 1rem;
+  font: inherit;
+}
+
+.formSide textarea {
+  resize: none;
+  height: 7rem;
+}
+
+.formSide button {
+  align-self: flex-start;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+  background: transparent;
+}
+
+.formSide button:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .contactContainer {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .pictureSide {
+    height: 30rem;
+  }
+
+  .pictureSide img {
+    border-radius: 0rem;
+  }
+
+  .formSide {
+    padding: 4rem 3rem 0 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pictureSide {
+    height: 20rem;
+  }
+
+  .formSide h1 {
+    font-size: 2.5rem;
+  }
+
+  .formSide p {
+    font-size: 1.2rem;
+  }
+}
