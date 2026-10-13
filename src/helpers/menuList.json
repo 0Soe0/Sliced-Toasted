@@ -1,0 +1,50 @@
+[
+  { "img": "src/assets/cheeseOreganoPizza.png",
+    "name": "Cheese-Oregano",
+    "price": "$14"
+  },
+  { "img": "src/assets/baconOnionPizza.png",
+    "name": "Bacon & Onion",
+    "price": "$17"
+  },
+  { "img": "src/assets/blackAndGreenOlivesPizza.png",
+    "name": "Black & Green Olives",
+    "price": "$17"
+  },
+  { "img": "src/assets/fourCheesesPizza.png",
+    "name": "Quattro-Formaggi",
+    "price": "$18"
+  },
+  { "img": "src/assets/friesBaconFriedEggsPizza.png",
+    "name": "Fries, Bacon & Fried Eggs",
+    "price": "$18"
+  },
+  { "img": "src/assets/groundMeatredAndgreenPepperPizza.png",
+    "name": "Ground Meat, Red & Green Pepper",
+    "price": "$19"
+  },
+  { "img": "src/assets/mushroomsPizza.png",
+    "name": "Spiced Mushrooms",
+    "price": "$15"
+  },
+  { "img": "src/assets/palmHeartsRedOnionsArugulaPizza.png",
+    "name": "Plam Hearts, Red Onion & Arugula",
+    "price": "$18"
+  },
+  { "img": "src/assets/pepperoniPizza.png",
+    "name": "Classic Pepperoni",
+    "price": "$15"
+  },
+  { "img": "src/assets/pineappleHamPizza.png",
+    "name": "Pineapple & Ham",
+    "price": "$17"
+  },
+  { "img": "src/assets/rawHamRucolaPizza.png",
+    "name": "Raw Ham & Rucola",
+    "price": "$18"
+  },
+  { "img": "src/assets/seaFoodPizza.png",
+    "name": "Sea Food",
+    "price": "$21"
+  }
+]

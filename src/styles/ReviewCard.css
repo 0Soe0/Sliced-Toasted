@@ -1,0 +1,51 @@
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 2rem;
+  background-color: rgba(236, 233, 185);
+  color: black;
+  font-size: 1.1rem;
+  width: 20rem;
+  height: 25rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.reviewCard p {
+  text-align: center;
+  height: 85%;
+  align-content: center;
+}
+
+.signature {
+  display: flex;
+  gap: 1rem;
+  font-style: italic;
+  height: 15%;
+}
+
+@media (max-width: 1280px) {
+  .reviewCard {
+    width: 15rem;
+    height: 20rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .reviewCard {
+    width: 13rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .reviewCard {
+    width: min(13rem, 70vw);
+  }
+
+}

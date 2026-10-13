@@ -1,0 +1,56 @@
+.footerContainer {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 1rem;
+}
+
+.imgContainer {
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerContainer img {
+  width: min(50rem, 50vw);
+  margin-top: auto;
+  margin-bottom: 1.5rem;
+}
+
+.footerList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 5.5rem;
+  box-sizing: border-box;
+}
+
+.ig a, .wpp a {
+  text-decoration: none;
+}
+
+ul span, .ig a, .wpp a {
+  color: white;
+}
+
+.ig a svg, .wpp a svg {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .footerList {
+    padding: 0 1.5rem;
+  }
+
+  .ig a svg, .wpp a svg {
+    font-size: 1.5rem;
+  }
+
+  ul li span {
+    font-size: 0.8rem;
+  }
+  .imgContainer {
+    min-height: 20rem;
+  }
+}
