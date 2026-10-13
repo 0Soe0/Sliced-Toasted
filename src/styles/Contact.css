@@ -25,7 +25,8 @@
 }
 
 .formSide h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  font-weight: 200;
 }
 
 .formSide p {
@@ -84,6 +85,14 @@
 
   .formSide {
     padding: 4rem 3rem 0 3rem;
+  }
+
+  .formSide h1 {
+    text-align: center;
+  }
+
+  .formSide p {
+    text-align: center;
   }
 }
 
