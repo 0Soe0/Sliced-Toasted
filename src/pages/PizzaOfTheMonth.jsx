@@ -1,8 +1,8 @@
-import pizzaWinner from '../assets/sliceOfFame.png';
-import '../styles/PizzaOfTheMonth.css';
 import { Link } from 'react-router-dom';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import pizzaWinner from '../assets/sliceOfFame.png';
+import '../styles/PizzaOfTheMonth.css';
 
 export const PizzaOfTheMonth = () => {
 
