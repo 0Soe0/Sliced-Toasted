@@ -1,0 +1,58 @@
+.monthlyPizzaWinnerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+  padding-top: 10rem;
+}
+
+.pizzaWinnerText {
+  text-align: center;
+  padding: 4rem 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.pizzaWinnerText h1 {
+  font-size: 5rem;
+}
+
+.pizzaName {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.pizzaWinnerText p {
+  font-size: 1.5rem;
+}
+
+.pun {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+}
+
+.pizzaWinnerButtons {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pizzaWinnerButtons a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.pizzaWinnerButtons a:hover {
+  transform: scale(1.05);
+}
