@@ -33,7 +33,9 @@ export const MenuCard = ({name, img, price, description}) => {
            <ArrowUpwardIcon />
           </button>
 
-          <span>{price}</span>
+          <span className='desktopPrice'>{price}</span>
+
+          <button className='mobileButton'><span>{price}</span><AddShoppingCartIcon/></button>
        </div>
       </div>
     </>

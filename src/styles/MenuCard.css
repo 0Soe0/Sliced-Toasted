@@ -37,7 +37,7 @@
   overflow: visible;
 }
 
-.priceContainer span {
+.priceContainer .desktopPrice {
   position: absolute;
   bottom: 1rem;
   right: 3rem;
@@ -96,6 +96,10 @@
 }
 
 .expandButton {
+  display: none;
+}
+
+.mobileButton {
   display: none;
 }
 
@@ -166,6 +170,33 @@
 
   .pizzaDescription {
     font-size: 0.9rem;
+  }
+
+  .mobileButton {
+    display: block;
+    position: absolute;
+    bottom: 0.8rem;
+    right: 1rem;
+    padding: 0.3rem 0.8rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: inherit;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  .mobileButton svg {
+    font-size: 1.09rem;
+  }
+
+  .desktopPrice {
+    display: none;
   }
 
 }
