@@ -51,6 +51,11 @@
   justify-content: center;
   font-size: 1.1rem;
   font-family: inherit;
+  transition: 0.3s ease;
+}
+
+.monthlyPizzaMenuCardButton:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 900px) {
@@ -97,27 +102,6 @@
   }
 
 }
-
-/* @media (max-width: 600px) {
-  .monthlyPizzaMenuCardContainer {
-    width: 15rem;
-    padding-bottom: 7rem;
-    padding-top: 3.5rem;
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-  }
-
-  .monthlyPizzaMenuCardContent img {
-    height: 10.3rem;
-  }
-
-  .monthlyPizzaMenuCardButton {
-    width: 50%;
-    color: white;
-    border: 1px solid white;
-  }
-} */
 
 @media (max-width: 600px) {
   .monthlyPizzaMenuCardContainer {
