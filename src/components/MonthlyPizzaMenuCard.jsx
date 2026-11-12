@@ -1,7 +1,21 @@
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { useCart } from '../hooks/useCart';
 import '../styles/MonthlyPizzaMenuCard.css';
 
-export const MonthlyPizzaMenuCard = ({image, name, description, price}) => {
+export const MonthlyPizzaMenuCard = ({id, image, name, description, price}) => {
+
+  const { addToCart } = useCart();
+
+
+  const handleAddToCart = () => {
+    addToCart({
+      id,
+      name,
+      image,
+      price,
+      description
+    });
+  };
 
   return (
     <>
@@ -13,7 +27,10 @@ export const MonthlyPizzaMenuCard = ({image, name, description, price}) => {
             <p>{description}</p>
           </div>
         </div>
-        <button className='monthlyPizzaMenuCardButton'><span>{price}</span><AddShoppingCartIcon/></button>
+        <button className='monthlyPizzaMenuCardButton'type="button" onClick={handleAddToCart} aria-label={`Add ${name} to cart`}>
+          <span>{price}</span>
+          <AddShoppingCartIcon/>
+        </button>
       </div>
     </>
   )

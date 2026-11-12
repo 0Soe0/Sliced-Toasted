@@ -8,7 +8,7 @@ import '../styles/PizzaOfTheMonth.css';
 export const PizzaOfTheMonth = () => {
 
   const pizza = pizzaWinners.find(
-    (pizza) => pizza.id === 'eloteBeCrazy'
+    (pizza) => pizza.id === 23
   );
 
   return (

@@ -1,17 +1,13 @@
 import { MenuCard } from  '../components/MenuCard.jsx';
 import { MonthlyPizzaMenuCard } from '../components/MonthlyPizzaMenuCard.jsx';
-//import { useCart } from '../context/CartContext';
 import menuList from '../helpers/menuList.json';
 import pizzaWinners from '../helpers/pizzaWinners.json';
 import '../styles/Menu.css';
 
 export const Menu = () => {
 
-  // const cart = useCart();
-  // const addToCart = cart.addToCart;
-
   const pizzaWinner = pizzaWinners.find(
-    (pizzaWinner) => pizzaWinner.id === 'eloteBeCrazy'
+    (pizzaWinner) => pizzaWinner.id === 23
   );
 
   return (
@@ -31,7 +27,8 @@ export const Menu = () => {
       <div className="menuList">
         {menuList.map((pizza) => (
           <MenuCard
-            key={pizza.name}
+            key={pizza.id}
+            id={pizza.id}
             name={pizza.name}
             description={pizza.description}
             img={pizza.img}

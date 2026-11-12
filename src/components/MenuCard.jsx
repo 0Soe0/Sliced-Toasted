@@ -1,11 +1,24 @@
 import { useState } from 'react';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { useCart } from '../hooks/useCart';
 import '../styles/MenuCard.css';
 
-export const MenuCard = ({name, img, price, description}) => {
+export const MenuCard = ({id, name, img, price, description}) => {
+
+  const { addToCart } = useCart();
 
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleAddToCart = () => {
+    addToCart({
+      id,
+      name,
+      img,
+      price,
+      description
+    });
+  };
 
   return (
     <>
@@ -19,7 +32,7 @@ export const MenuCard = ({name, img, price, description}) => {
             <p className="pizzaDescription">{description}</p>
           </div>
 
-          <button className="addToCartButton" type="button" aria-label={`Add ${name} to cart`}>
+          <button className="addToCartButton" type="button" onClick={handleAddToCart} aria-label={`Add ${name} to cart`}>
             <AddShoppingCartIcon />
           </button>
 
@@ -35,7 +48,10 @@ export const MenuCard = ({name, img, price, description}) => {
 
           <span className='desktopPrice'>{price}</span>
 
-          <button className='mobileButton'><span>{price}</span><AddShoppingCartIcon/></button>
+          <button className='mobileButton' type="button" onClick={handleAddToCart} aria-label={`Add ${name} to cart`}>
+            <span>{price}</span>
+            <AddShoppingCartIcon/>
+          </button>
        </div>
       </div>
     </>
