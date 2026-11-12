@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation} from 'react-router-dom'
 import {Navbar, Footer} from './components'
 import {Home, About, Menu, Contact, NotFound, Cart, MonthlyPizzaHistory, MonthlyPizzaWinner, PizzaOfTheMonth, WorkWithUs} from './pages'
-import { CartProvider } from './context/CartContext';
+import { CartProvider } from './context/CartContext.jsx';
 import './App.css'
 
 export const App = () => {
