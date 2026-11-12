@@ -1,5 +1,5 @@
 .menuContainer {
-  position: relative;
+  /* position: relative; */
   background-color: black;
   padding: 10rem 0;
   padding-left: 5rem;
@@ -16,6 +16,7 @@
   justify-content: center;
   column-gap: 4rem;
   row-gap: 10rem;
+  margin-top: 7rem;
 }
 
 .menuTitle {
@@ -23,6 +24,13 @@
   font-size: 11rem;
   font-weight:200;
   margin-bottom: 5rem;
+}
+
+.menuSubtitle {
+  color: white;
+  font-size: 4rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 1280px) {
@@ -34,7 +42,10 @@
 
   .menuTitle {
     font-size: 9rem;
-    margin-bottom: 3rem;
+  }
+
+  .menuSubtitle {
+    font-size: 3rem;
   }
   
 }
@@ -85,5 +96,10 @@
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
+  }
+
+  .menuSubtitle {
+    text-align: center;
+    font-size: 2rem;
   }
 }
