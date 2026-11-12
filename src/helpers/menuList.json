@@ -1,50 +1,62 @@
 [
   { "img": "src/assets/cheeseOreganoPizza.png",
-    "name": "Cheese-Oregano",
+    "name": "MOZZA BE KIDDING",
+    "description": "Golden, richy, creamy melted mozzarella topped with fragrant oregano and a drizzle of extra virgin olive oil. A simple, comforting classic that never gets old. Just a crispy crust, punchy sauce and a whole lot of cheesy goodness.",
     "price": "$14"
   },
   { "img": "src/assets/baconOnionPizza.png",
-    "name": "Bacon & Onion",
+    "name": "BACON THERE, DONE THAT",
+    "description": "Crispy bacon, sweet caramelized onions, and gooey mozzarella over a rich tomato sauce paired with a golden, smoky crust. A savory classic combination worth losing your crust over.",
     "price": "$17"
   },
   { "img": "src/assets/blackAndGreenOlivesPizza.png",
-    "name": "Black & Green Olives",
+    "name": "OLIVE THE DRAMA",
+    "description": " Creamy garlic sauce, melted mozzarella, a generous mix of briny green and black olives, and a drizzle of extra virgin olive oil, finished with a sprinkle of herbs. This Mediterranean-inspired slice is for the olive lovers who always ask for extra, this one's got you covered.",
     "price": "$17"
   },
   { "img": "src/assets/fourCheesesPizza.png",
-    "name": "Quattro-Formaggi",
+    "name": "FOUR THE LOVE OF CHEESE",
+    "description": "A creamy blend of four cheeses, melted mozzarella, strong blue cheese, nutty parmesan, and smooth fontina, all layered over our rich tomato sauce and finished with a sprinkle of herbs. If you are a cheese lover, missing out is not an option.",
     "price": "$18"
   },
   { "img": "src/assets/friesBaconFriedEggsPizza.png",
-    "name": "Fries, Bacon & Fried Eggs",
+    "name": "FINALLY FRY-DAY",
+    "description": "Creamy melted mozzarella, crispy golden fries, smoky bacon and runny fried eggs over a rich tomato sauce, all paired with our golden crust. Just as you wait all week long to finally get to friday, FRY-DAY waits for you to have it on your table.",
     "price": "$18"
   },
   { "img": "src/assets/groundMeatredAndgreenPepperPizza.png",
-    "name": "Ground Meat, Red & Green Pepper",
+    "name": "THE BEEF DEAL",
+    "description": "Spiced ground beef, freshly chopped red and green bell peppers and melted mozzarella over our tasty tomato sauce. When it comes to a good deal, this one's got the whole package. Meaty, cheesy, and packed with flavor — now that's a deal you don't want to miss.",
     "price": "$19"
   },
   { "img": "src/assets/mushroomsPizza.png",
-    "name": "Spiced Mushrooms",
+    "name": "FOREST GUMP",
+    "description": "Earthy mushrooms, melted mozzarella, a fragrant blend of herbs and spices, and our rich tomato sauce, the perfect combination to a crispy crust. This pizza is packed with woodsy rustic flavors that will take any nature emthusiastic to a walk in the forest.",
     "price": "$15"
   },
   { "img": "src/assets/palmHeartsRedOnionsArugulaPizza.png",
-    "name": "Plam Hearts, Red Onion & Arugula",
+    "name": "PALM READER",
+    "description": "Tender hearts of palm, sweet red onion, fresh peppery arugula, and melted mozzarella over our rich tomato sauce and golden crust. Who knew the future could taste this good? One bite, and the stars might just be telling you to order another.",
     "price": "$18"
   },
   { "img": "src/assets/pepperoniPizza.png",
-    "name": "Classic Pepperoni",
+    "name": "RONI & CLYDE",
+    "description": "Rich tomato sauce, melted mozzarella covered with thin slices of savory pepperoni and married with a golden crunchy crust. These two were made for each other, and once they hit your table, there's no turning back. Some partnerships are simply too good to be broken up.",
     "price": "$15"
   },
   { "img": "src/assets/pineappleHamPizza.png",
-    "name": "Pineapple & Ham",
+    "name": "SWEET HAM ALABAMA",
+    "description": "Savory ham, juicy pineapple chunks, melted mozzarella, a rich tomato sauce and the slightly charred house signature crust. It's got us debating on the order process, singing on the first bite, and missing it straight after the last one.",
     "price": "$17"
   },
   { "img": "src/assets/rawHamRucolaPizza.png",
-    "name": "Raw Ham & Rucola",
+    "name": "HAM I RIGHT?",
+    "description": "Delicate thin slices of salty prosciutto, fresh peppery arugula and melted mozzarella, finished with a drizzle of extra virgin olive oil. You can never go wrong with this slightly fancy but comfy combination. Seeing the faces of your friends after trying it will make you go, 'Ham I right?'",
     "price": "$18"
   },
   { "img": "src/assets/seaFoodPizza.png",
-    "name": "Sea Food",
+    "name": "SEA YOU LATER",
+    "description": "Juicy shrimp, tender calamari rings, baby octopus, and briny clams, finished with fresh parsley and a hint of lemon zest. Such a temptation you might say goodbye to your self-control. Sea you later, hunger!",
     "price": "$21"
   }
 ]
