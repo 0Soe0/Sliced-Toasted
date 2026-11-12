@@ -1,0 +1,98 @@
+[
+  {
+    "id": "theCheeseburgerBandit",
+    "name": "THE CHEESEBURGER BANDIT",
+    "description": "A burger-sauce base, mozzarella, cheddar, seasoned ground beef, crispy bacon, red onion, and pickles. A drizzle of burger sauce and shredded lettuce added after baking. Burger and pizza lovers united for a single purpose: mixing their passions right through the path to the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/theCheeseburgerBandit.png",
+    "date": "OCTOBER 2025"
+  },
+  {
+    "id": "porkySmoke",
+    "name": "PORKY SMOKE",
+    "description": "BBQ sauce, mozzarella, slow-cooked pulled pork, red onion, crispy bacon, and smoked cheddar. Tangy pickled red onions and a smoky BBQ drizzle after baking are the finishing touch for a meaty twist climbing the ladder of the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/porkySmoke.png",
+    "date": "NOVEMBER 2025"
+  },
+  {
+    "id": "thePestoManifesto",
+    "name": "THE PESTO MANIFESTO",
+    "description": "Basil pesto, mozzarella, roasted cherry tomatoes, and Parmesan. Burrata, fresh basil, and a balsamic glaze added after baking to complete our italian community fantasy. Just like the italian chefs pizza acrobatics, it got its way flying right to the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/thePestoManifesto.png",
+    "date": "DECEMBER 2025"
+  },
+  {
+    "id": "breakfastClub",
+    "name": "BREAKFAST CLUB",
+    "description": "Creamy philadelphia cheese sauce, mozzarella, sauteed sausage slices, crispy bacon, small pockets of scrambled egg and maple-chili syrup drizzled on top. Early birds raised and voted on their new favorite way to start their day, coffee in one hand and the other one reaching right for a slice of fame.",
+    "price": "$25",
+    "img": "src/assets/breakfastClub.png",
+    "date": "JANUARY 2026"
+  },
+  {
+    "id": "theMacToMyCheese",
+    "name": "THE MAC TO MY CHEESE",
+    "description": "Garlic cream sauce, mozzarella, a layer of creamy mac and cheese, crispy bacon, and a parmesan crust. The little ones have casted their votes, along with those who keep their spirit young, combining two of the old times favorites in a creation that couldn't miss the title of the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/theMacToMyCheese.png",
+    "date": "FEBRUARY 2026"
+  },
+  {
+    "id": "brieMine",
+    "name": "BRIE MINE",
+    "description": "White wine infused garlic sauce, mozzarella, brie, bacon and cranberry sauce. Fresh rosemary and cranberry pieces on top added after baking. A fancy styled pizza for a dreamy date night to fall in love with the flavours and the never-ending tradition of the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/brieMine.png",
+    "date": "MARCH 2026"
+  },
+  {
+    "id": "appleOfMyPie",
+    "name": "APPLE OF MY PIE",
+    "description": "A sweet cream-cheese base, caramelized apples, buttery crumble, and salted caramel drizzle. Ask for a cinnamon sprinkle show or a vanilla ice-cream scoop garnish to complete this delightful experience and take a step into the sweet path through the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/appleOfMyPie.png",
+    "date": "APRIL 2026"
+  },
+  {
+    "id": "theSmoreTheMerrier",
+    "name": "THE S'MORE THE MERRIER",
+    "description": "Chocolate spread, toasted marshmallows, crushed biscuits, and chocolate drizzle on a savory crispy crust. Our camping enthusiasts have set up camp at the slice of fames list, making it to the very top with one of the most loved late night treats turned into a pizza.",
+    "price": "$25",
+    "img": "src/assets/theSmoreTheMerrier.png",
+    "date": "JUNE 2026"
+  },
+  {
+    "id": "buffaloSoldier",
+    "name": "BUFFALO RIDER",
+    "description": "Buffalo hot sauce, mozzarella, chopped crispy chicken nuggets made with panko, red onion, and blue cheese. A ranch drizzle when coming right out of the oven and lots of cowboy hats thown in the air as we exclaim vistory in the name of the winner for this months slice of fame.",
+    "price": "$25",
+    "img": "src/assets/buffaloSoldier.png",
+    "date": "JULY 2026"
+  },
+  {
+    "id": "nutellaBeShy",
+    "name": "NUTELLA BE SHY",
+    "description": "Chocolate-hazelnut spread, strawberries, crushed hazelnuts, and powdered sugar. Dessert lovers and tea time enthusiasts have united to bring a classic sweet combination, from pancakes to our beloved pizza community culture, the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/nutellaBeShy.png",
+    "date": "AUGUST 2026"
+  },
+  {
+    "id": "pearPressure",
+    "name": "PEAR PRESSURE",
+    "description": "White wine infused garlic sauce, mozzarella, gorgonzola, thinly sliced pear, toasted walnuts, and a drizzle of spicy honey. Sweet, savory, creamy, and just a little rebellious, this unexpected combination proved that peer pressure can't change the essence of what's unique, well-deserving of the winner spot for the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/pearPressure.png",
+    "date": "SEPTEMBER 2026"
+  },
+  {
+    "id": "eloteBeCrazy",
+    "name": "ELOTE BE CRAZY",
+    "description": "Chili-lime crema, mozzarella, roasted corn, crispy bacon, thinly sliced jalapeños and crumbled cotija cheese. Topped with ciboulette, lime zest, and a little chili oil after baking. This street mexican inspired combination has spiced up the heart of the community and made its way to be served as the slice of fame.",
+    "price": "$25",
+    "img": "src/assets/eloteBeCrazy.png",
+    "date": "OCTOBER 2026"
+  }
+]
